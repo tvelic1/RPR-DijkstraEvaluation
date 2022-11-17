@@ -13,7 +13,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Unesite vrijednost:" );
+        /*System.out.println( "Unesite vrijednost:" );
         Scanner in= new Scanner(System.in);
         String s=null;
         s=in.nextLine();
@@ -36,6 +36,21 @@ public class App
        // System.out.println(a.charAt(9));
         //System.out.println(s.charAt(2));
         //String myStr = "( ( sqrt ( 11 )";
-        //System.out.println(myStr.substring(myStr.indexOf("s"),myStr.indexOf(")")).length()-8);
+        //System.out.println(myStr.substring(myStr.indexOf("s"),myStr.indexOf(")")).length()-8); */
+            //String g=null;
+
+
+                try{ ValidInput.isValid(args[0]);
+                   String g=args[0];
+                    double ev=ExpressionEvaluator.evaluate(g);
+                    System.out.println(ev);
+
+                }catch(RuntimeException e)
+                {
+                    System.out.println(e.getMessage());
+                }
+
+
+
     }
 }
