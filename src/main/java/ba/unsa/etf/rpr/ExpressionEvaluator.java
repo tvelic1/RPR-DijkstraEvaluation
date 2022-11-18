@@ -3,6 +3,11 @@ package ba.unsa.etf.rpr;
 import java.util.Stack;
 /* Klasa za odredjivanje vrijednost*/
 public class ExpressionEvaluator {
+    /**
+     * * Method for evaluation of expression based on Djikstra's algorithm
+     * @param s
+     *
+     */
 
     public static double evaluate(String s){
         Stack<Double> vrijednosti=new Stack<Double>();

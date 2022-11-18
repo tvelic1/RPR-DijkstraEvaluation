@@ -2,6 +2,12 @@ package ba.unsa.etf.rpr;
 
 public class ValidInput {
 
+    /**
+     * * method for validation of input
+     * @param a
+     * @author tvelic1
+     */
+
     public static boolean isValid(String a){
         boolean valid=true;
         char prva=a.charAt(0);
