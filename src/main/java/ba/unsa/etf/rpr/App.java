@@ -13,7 +13,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        /*System.out.println( "Unesite vrijednost:" );
+        System.out.println( "Unesite vrijednost:" );
         Scanner in= new Scanner(System.in);
         String s=null;
         s=in.nextLine();
@@ -29,18 +29,10 @@ public class App
 
 
 
- //String a = "( sqrt ( 1 ) + 1 )";
-       // String pom2=a.substring(a.indexOf("s"),a.indexOf(")"));
-        //int k=pom2.length()-8;
-        //.out.println(k);
-       // System.out.println(a.charAt(9));
-        //System.out.println(s.charAt(2));
-        //String myStr = "( ( sqrt ( 11 )";
-        //System.out.println(myStr.substring(myStr.indexOf("s"),myStr.indexOf(")")).length()-8); */
-            //String g=null;
 
 
-                try{ ValidInput.isValid(args[0]);
+
+             /*   try{ ValidInput.isValid(args[0]);
                    String g=args[0];
                     double ev=ExpressionEvaluator.evaluate(g);
                     System.out.println(ev);
@@ -49,6 +41,10 @@ public class App
                 {
                     System.out.println(e.getMessage());
                 }
+*/
+                //na prvu sam mislio da treba da se parsira string ali napisali ste kolegi da se string salje kao jedan odnosno da nema parsiranja
+
+
 
 
 

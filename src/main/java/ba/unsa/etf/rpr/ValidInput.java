@@ -34,8 +34,8 @@ public class ValidInput {
             { String pom=a.substring(a.indexOf("s")); //uzmi string od s pa nadalje
 
                 String pom2=pom.substring(pom.indexOf("s"),pom.indexOf(")")); // od s pa do prve zatvorene
-                int duzina_potkorijene_velicine=pom2.length()-8; //prebrojavanjem se dobije
-                for(int i=pom.indexOf("t")+4;i<pom.indexOf("t")+4+duzina_potkorijene_velicine;i++)
+                int duzina_potkorijene_velicine=pom2.length()-6; //prebrojavanjem se dobije
+                for(int i=pom.indexOf("t")+2;i<pom.indexOf("t")+2+duzina_potkorijene_velicine;i++)
                 {
                     if(isDigit(pom.charAt(i))==false) { valid=false; //da li je svaki element potkorijene velicine cifra
                         throw new RuntimeException("Invalid inputtt");}
