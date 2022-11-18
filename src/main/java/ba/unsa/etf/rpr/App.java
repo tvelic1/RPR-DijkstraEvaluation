@@ -13,7 +13,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Unesite vrijednost:" );
+      /*  System.out.println( "Unesite vrijednost:" );
         Scanner in= new Scanner(System.in);
         String s=null;
         s=in.nextLine();
@@ -25,21 +25,21 @@ public class App
 
         }
         catch (RuntimeException e){
-            System.out.println(e.getMessage());}
+            System.out.println(e.getMessage());}*/
 
 
 
 
 
 
-               /* try{ ValidInput.isValid(args[0]);
+                try{ ValidInput.isValid(args[0]);
                    String g=args[0];
                     double ev=ExpressionEvaluator.evaluate(g);
                     System.out.println(ev);
 
                 }catch(RuntimeException e)
                 {
-                    System.out.println(e.getMessage());*/
+                    System.out.println(e.getMessage());
                 }
 
                 //na prvu sam mislio da treba da se parsira string ali napisali ste kolegi da se string salje kao jedan odnosno da nema parsiranja
@@ -48,5 +48,5 @@ public class App
 
 
 
-    }
+    }}
 
