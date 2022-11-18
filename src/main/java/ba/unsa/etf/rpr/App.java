@@ -6,7 +6,8 @@ import java.util.Scanner;
 
 
 /**
- * Hello world!
+ * APP WITH MAIN METHOD
+ * @author tvelic1
  *
  */
 public class App 
