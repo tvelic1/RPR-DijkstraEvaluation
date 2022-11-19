@@ -5,7 +5,7 @@ import java.util.Stack;
 public class ExpressionEvaluator {
     /**
      * * Method for evaluation of expression based on Djikstra's algorithm
-     * @param s
+     * @author Tarik Velic
      *
      */
 
